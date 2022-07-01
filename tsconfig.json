@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "target": "ES5",
+        "moduleResolution": "node",
+        "outDir": "dist",
+        "baseUrl": "src",
+        "sourceMap":true,
+        "downlevelIteration": true,
+        "noImplicitAny": false,
+        "paths": {
+            "app/*": ["app/*"],
+            "config/*": ["app/_config/*"],
+            "lib/*": ["lib/*"],
+            "tests/*": ["tests/*"]
+        },
+    },
+    "include": ["src/**/*.ts"],
+    "files": [
+      "hello.ts",
+    ],
+}
