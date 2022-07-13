@@ -1,0 +1,1 @@
+export const i = <T>(n: T):T=>n

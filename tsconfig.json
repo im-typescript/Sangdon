@@ -5,7 +5,7 @@
         "target": "ES5",
         "moduleResolution": "node",
         "outDir": "dist",
-        "baseUrl": "src",
+        "baseUrl": ".",
         "sourceMap":true,
         "downlevelIteration": true,
         "noImplicitAny": false,
@@ -13,11 +13,9 @@
             "app/*": ["app/*"],
             "config/*": ["app/_config/*"],
             "lib/*": ["lib/*"],
-            "tests/*": ["tests/*"]
+            "tests/*": ["tests/*"],
+            "*":["node_modules/*"],
         },
     },
-    "include": ["src/**/*.ts"],
-    "files": [
-      "hello.ts",
-    ],
+    "include": ["src/**/*.ts"]
 }
